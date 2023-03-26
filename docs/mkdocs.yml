@@ -1,0 +1,28 @@
+site_name: Firestarter Docs
+theme:
+  name: material
+  logo: assets/logo.png
+  icon:
+    repo: fontawesome/brands/github 
+  favicon: assets/favicon.png
+  palette:
+    primary: white
+  features:
+  - navigation.instant
+  - navigation.tracking
+  - navigation.sections
+nav:
+  - Welcome to Firestarer: 
+      - index.md
+      - concepts.md
+  - Setup:
+      - setup/index.md
+      - setup/firebase.md
+      - setup/app-configuration.md
+repo_url: https://github.com/mcapodici/firestarter
+repo_name: mcapodici/firestarter
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
