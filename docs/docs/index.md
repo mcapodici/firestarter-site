@@ -22,7 +22,7 @@ Follow the steps in [Setup](setup.md). You can then change your fork of the code
 
 ## Links
 
-<img src="/assets/favicon.png" height="18" width="18" style="margin-bottom: -4px;"/> Main site: [https://www.firestarterapp.com](https://www.firestarterapp.com)
+<img src="assets/favicon.png" height="18" width="18" style="margin-bottom: -4px;"/> Main site: [https://www.firestarterapp.com](https://www.firestarterapp.com)
 
 :octicons-mark-github-16: Github: [https://github.com/mcapodici/firestarter](https://github.com/mcapodici/firestarter)
 

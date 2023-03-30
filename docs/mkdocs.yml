@@ -14,7 +14,7 @@ theme:
 nav:
   - Welcome to Firestarer: 
       - index.md
-      - concepts.md
+      - technologies.md
   - Setup:
       - setup/index.md
       - setup/firebase.md

@@ -1,0 +1,1 @@
+Run `mkdocs serve` from this folder to locally build and view the docs.

@@ -1,8 +1,10 @@
-# Concepts
+# Tech Stack
 
-These are things to understand in order to work with Firestarer. You can skip the bits you are already familiar with.
+Firestarter uses the tech stack explained on this page. Read on to learn, but don't worry, step by step installation instructions are given so you don't need to be an expert in any of these.
 
-## Firebase
+## Cloud Services
+
+### Firebase
 
 Firestarter uses Google's [Firebase](https://firebase.google.com/) platform.
 
@@ -16,29 +18,19 @@ Firestore is a NoSQL document-based database service offered by Firebase that al
 
 👁️‍🗨️ Firestarter currently uses just the authentication and database features. It uses email/password authentication only.
 
-## Next.js
-
-Firestarter uses [Next.js](https://nextjs.org/) for building out the site's components and pages and providing a slick, fast experience for the users.
-
-Next.js is a React-based framework used for building server-side rendered web applications. It is designed to make it easy for developers to build high-performance web applications with features such as server-side rendering, automatic code splitting, and static site generation. 
-
-Next.js offers an intuitive API for building dynamic applications while also providing robust support for static site generation, allowing developers to generate pre-rendered pages for improved performance and SEO. 
-
-👁️‍🗨️ Firestarter only uses Next.js to generate static HTML, with the data from the server being fetched and rendered by Javascript by calling the Firebase APIs.
-
-## Vercel
+### Vercel
 
 [Vercel](https://vercel.com) (previously called Zeit before 2019) is the company behind NextJS and provide a very convenient and free / cheap way to host NextJS applications.
 
 I recommend using Vercel to get started with Firestarter, but you have the option to deploy your site to another host, such as Firebase's site hosting, Digital Ocean or AWS.
 
-## Github Actions
+### Github Actions
 
 [Github actions](https://github.com/features/actions) are used to build, test and deploy the application when you push commits to Github. This is very convenient to make sure you have consistent build and test process for every commit, and making it easy to deploy (there is nothing to do!).
 
 However if you don't have to use it. You could for example work locally using Git, and delpoy to both Vercel and Firebase by running command line. 
 
-## Firebase vs. Vercel
+### Firebase vs. Vercel
 
 It may be confusing as to what Firebase does and what Vercel does when hosting your application. Here is the distinction:
 
@@ -48,7 +40,20 @@ It may be confusing as to what Firebase does and what Vercel does when hosting y
 
 Note: This is the case for Firestater, but Vercel and Firebase can do much more than what is listed here.
 
-## Typescript
+## Platforms and Code
+
+### Next.js and React
+
+Firestarter uses [Next.js](https://nextjs.org/) for building out the site's components and pages and providing a slick, fast experience for the users.
+
+Next.js is a React-based framework used for building server-side rendered web applications. It is designed to make it easy for developers to build high-performance web applications with features such as server-side rendering, automatic code splitting, and static site generation. 
+
+Next.js offers an intuitive API for building dynamic applications while also providing robust support for static site generation, allowing developers to generate pre-rendered pages for improved performance and SEO. 
+
+👁️‍🗨️ Firestarter only uses Next.js to generate static HTML, with the data from the server being fetched and rendered by Javascript by calling the Firebase APIs.
+
+
+### Typescript
 
 Firestarter uses [Typescript](https://www.typescriptlang.org/), which is a language that is similar to Javascript and compiles to Javascript. It adds types to the languages, so you can specify that an argument to a function is a number or a string, whereas in Javascript there is no way to specify or check this at edit time.
 
