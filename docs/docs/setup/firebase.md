@@ -1,5 +1,9 @@
 # Firebase
 
+!!! note
+
+    These steps require that you already have the source code. If not then [get the source code](getthecode.md) first
+
 To set up your Firebase account, with Authentication and Firestore enabled:
 
 * Create an account with Firebase (https://firebase.google.com/)
@@ -8,11 +12,15 @@ To set up your Firebase account, with Authentication and Firestore enabled:
 * When prompted for "Google Analytics for your Firebase project", make your choice as preferred. It doesn't affect Firestarter either way. If not sure, select No.
 * Wait for your project to be created.
 
-  👁️‍🗨️ When complete it says "Your new project is ready"
+!!! info
+
+    When complete it says "Your new project is ready"
 
 * Click **Continue**
 
-  👁️‍🗨️ You are taken to the project Overview for your new project
+!!! info
+
+    You are taken to the project Overview for your new project
 
 * Click **Authentication**
 * Click **Get Started**
@@ -35,15 +43,25 @@ Your Firebase is now set up for Firestarter! You will now need to get some confi
 * Don't check **Also set up Firebase Hosting for this app**
 * Click **Register App**
 * Wait for registration.
-* Copy the code that looks like this, and paste it into the `config.ts` file 
+* Select the "Config" radio box
+* Check that the code has a single variable `const firebaseConfig` and no other code. (See example below)
+* 
+```typescript
+const firebaseConfig = {
+  apiKey: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  authDomain: "aaaa-aaaaa.firebaseapp.com",
+  projectId: "aaaa-aaaaa",
+  storageBucket: "aaaa-aaaaa.appspot.com",
+  messagingSenderId: "11111111111",
+  appId: "1:11111111111:web:7777777777777777777777"
+};
+```
 
-```javascript
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+* In the box showing the code, like this, click the copy icon.
+* Replace the existing `const firebaseConfig` statement in `nextjs/src/firebase/config.ts`, with the one you copied.
+* The `config.ts` file should look like this now:
 
-// Your web app's Firebase configuration
+```typescript
 const firebaseConfig = {
   apiKey: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
   authDomain: "aaaa-aaaaa.firebaseapp.com",
@@ -53,10 +71,14 @@ const firebaseConfig = {
   appId: "1:11111111111:web:7777777777777777777777"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+export default firebaseConfig;
 ```
 
-
+* Check that the project builds correctly with this change:
+    * On the command line, change directory into the `nextjs` folder.
+    * Run `yarn build`.
+    * Check that there are no errors.
+    * If there are errors, double check you have pasted correctly. 
+    * If there are still errors you can raise an [issue on Github](https://github.com/mcapodici/firestarter/issues) and I will help as soon as I can.
 
 

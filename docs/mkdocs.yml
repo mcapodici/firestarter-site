@@ -17,12 +17,16 @@ nav:
       - technologies.md
   - Setup:
       - setup/index.md
+      - setup/getthecode.md
       - setup/firebase.md
       - setup/app-configuration.md
 repo_url: https://github.com/mcapodici/firestarter
 repo_name: mcapodici/firestarter
 markdown_extensions:
-  - attr_list
+  - attr_list 
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
