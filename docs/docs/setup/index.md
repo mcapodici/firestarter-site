@@ -10,4 +10,4 @@ To set up Firestarter, you will need to set up hosting, then your local envrionm
 
 Click continue to go to the first step, which is to setup Firebase.
 
-[Get the code >>>](getthecode.md){ .md-button }
+[Source code >>>](source-code.md){ .md-button }

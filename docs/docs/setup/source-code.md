@@ -1,4 +1,4 @@
-# Get the code
+# Source code
 
 Let's get the Firestarter code on your machine using Github.
 
@@ -32,5 +32,5 @@ git clone https://github.com/yourname/myproject.git
 
 ## Next steps
 
-[Firebase Account >>>](firebase-account.md){ .md-button }
+[Local Development >>>](local-development.md){ .md-button }
 

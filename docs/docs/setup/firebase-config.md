@@ -2,7 +2,7 @@
 
 You will now need to get some configuration values out of it so the code can make use of this Firebase project:
 
-* Log into your Firbease account, and go to the console.
+* Log into your Firebase account, and go to the console.
 * Click your project.
 * Under **Get started by adding Firebase to your app**, click the Web icon that looks like `</>`.
 * Give the app a nickname, e.g. Firestarter.
@@ -46,6 +46,9 @@ export default firebaseConfig;
     * Check that there are no errors.
     * If there are errors, double check you have pasted correctly. 
     * If there are still errors you can raise an [issue on Github](https://github.com/mcapodici/firestarter/issues) and I will help as soon as I can.
+
+* Now run `yarn dev` to run the appplication, and sign up for an account
+* Log in to your Firebase account, go to the console, go to your project, and click Authentication. You should see the email you used to create that account listed. This proves you are connecting to your account, not our demo one.
 
 * Commit the changes on `main` and push to Github.
   

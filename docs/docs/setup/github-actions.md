@@ -34,6 +34,4 @@ To get this to work, some configuration is required:
 
 Push an empty commit on your repsitory, you should, after a few minutes now get a green circle showing that everything is successful.
 
-
-
-
+[Congratulations >>>](congratulations.md){ .md-button }
