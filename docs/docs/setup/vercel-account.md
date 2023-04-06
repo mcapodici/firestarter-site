@@ -28,3 +28,4 @@ To set up your Vercel account:
 * Optional: Set up domain name
     * To link your own domain name, follow the steps here: [https://vercel.com/docs/concepts/projects/domains/add-a-domain](https://vercel.com/docs/concepts/projects/domains/add-a-domain)
 
+[Github Actions >>>](github-actions.md){ .md-button }

@@ -48,3 +48,5 @@ export default firebaseConfig;
     * If there are still errors you can raise an [issue on Github](https://github.com/mcapodici/firestarter/issues) and I will help as soon as I can.
 
 * Commit the changes on `main` and push to Github.
+  
+[Vercel Account >>>](vercel-account.md){ .md-button }

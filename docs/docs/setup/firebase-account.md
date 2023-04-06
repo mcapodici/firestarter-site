@@ -32,3 +32,5 @@ To set up your Firebase account:
 * Click **Enable**
 
 Your Firebase is now set up for Firestarter! 
+
+[App Configuration (Firebase) >>>](firebase-config.md){ .md-button }

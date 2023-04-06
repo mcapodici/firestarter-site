@@ -32,5 +32,5 @@ git clone https://github.com/yourname/myproject.git
 
 ## Next steps
 
-[Set up Firebase >>>](firebase.md){ .md-button }
+[Firebase Account >>>](firebase-account.md){ .md-button }
 
