@@ -1,44 +1,10 @@
-# Firebase
+# App Configuration (Firebase)
 
-!!! note
+You will now need to get some configuration values out of it so the code can make use of this Firebase project:
 
-    These steps require that you already have the source code. If not then [get the source code](getthecode.md) first
-
-To set up your Firebase account, with Authentication and Firestore enabled:
-
-* Create an account with Firebase (https://firebase.google.com/)
-* Log into Firebase and go to the console, and click **+ Add Project**
-* Give your project a name.
-* When prompted for "Google Analytics for your Firebase project", make your choice as preferred. It doesn't affect Firestarter either way. If not sure, select No.
-* Wait for your project to be created.
-
-!!! info
-
-    When complete it says "Your new project is ready"
-
-* Click **Continue**
-
-!!! info
-
-    You are taken to the project Overview for your new project
-
-* Click **Authentication**
-* Click **Get Started**
-* Click **Email/Password** under **Native Providers**
-* Next to **Email/Password**, click **Enable**
-* Click **Save**
-* Click **Project Overview** to get back to that page again.
-* Click **Cloud Firestore** 
-* Click **Create Database**
-* Keep the default of **Start in production mode**
-* Click **Next**
-* For the Location, stick with **(United States)**, unless you have a strong need to change it.
-* Click **Enable**
-
-Your Firebase is now set up for Firestarter! You will now need to get some configuration values out of it so the code can make use of this Firebase project.
-
-* Click **Project Overview** to get back to that page again.
-* Under **Get started by adding Firebase to your app**, click the Web icon that looks like **</>**.
+* Log into your Firbease account, and go to the console.
+* Click your project.
+* Under **Get started by adding Firebase to your app**, click the Web icon that looks like `</>`.
 * Give the app a nickname, e.g. Firestarter.
 * Don't check **Also set up Firebase Hosting for this app**
 * Click **Register App**
@@ -81,4 +47,4 @@ export default firebaseConfig;
     * If there are errors, double check you have pasted correctly. 
     * If there are still errors you can raise an [issue on Github](https://github.com/mcapodici/firestarter/issues) and I will help as soon as I can.
 
-
+* Commit the changes on `main` and push to Github.

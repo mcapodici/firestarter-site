@@ -18,8 +18,10 @@ nav:
   - Setup:
       - setup/index.md
       - setup/getthecode.md
-      - setup/firebase.md
-      - setup/app-configuration.md
+      - setup/firebase-account.md
+      - setup/firebase-config.md
+      - setup/vercel-account.md
+      - setup/github-actions.md
 repo_url: https://github.com/mcapodici/firestarter
 repo_name: mcapodici/firestarter
 markdown_extensions:
