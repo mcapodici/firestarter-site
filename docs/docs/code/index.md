@@ -72,7 +72,9 @@ This is something I am thinking about and will add in the future.
 
 ## Tailwind
 
-My approach to using Tailwind is to splatter tailwind classes everywhere, and then when I see repetition tidy up common things into the `global.css`. Your prefered approach might be different! So feel free to structure the css as you please. I started off using [Tailwind Elememts](https://tailwind-elements.com/), and some of the styles were originally from there and adapted. However I dropped use of it's NPM pacakage because it is not as React-friendly as I would like, so I reimplemented some of the affordances in React, such as the hamburger menu for narrow devices.
+My approach to using Tailwind is to splatter tailwind classes everywhere, and then when I see repetition tidy up common things into the `global.css`. Your prefered approach might be different! So feel free to structure the css as you please.
+
+I started off using [Tailwind Elements](https://tailwind-elements.com/), and some of the styles were originally from there and adapted. However I dropped use of it's NPM pacakage because it is not as React-friendly as I would like, so I reimplemented some of the affordances in React, such as the hamburger menu for narrow devices.
 
 ## React Component Archiecture
 
