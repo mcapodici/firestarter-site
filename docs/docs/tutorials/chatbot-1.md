@@ -1,10 +1,17 @@
 # Introduction
 
-In this tutorial, we will use Firestarter as a starting point to create a SaaS that let's it's users create AI chatbots for their sites, using the cutting edge tech that has been released in 2023.
+We are going to create a web application that let's people create their own AI chat bots. The chat bot would look something like this. This is a "Roasting Bot" that tries hard to insult you, but the app will let you create many types of bot.
+
+![Chatbot idea sketch](../assets/chatbotideasketch-chatpiece.png)
+
+To do this we will use
+
+* Firestarter, of course
+* OpenAI, to provide the intellegence for the bot
 
 ## Requirements
 
-To unpack that it means:
+More specifically what we will build an app where:
 
 * Someone, let's call them Lisa can come to this site and sign up.
 * Lisa can create one or more chatbots.
