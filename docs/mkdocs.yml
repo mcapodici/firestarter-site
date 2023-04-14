@@ -28,6 +28,8 @@ nav:
       - code/index.md
   - Tutorials:
       - tutorials/index.md
+      - Chatbot Tutorial:
+          - tutorials/chatbot-1.md
 repo_url: https://github.com/mcapodici/firestarter
 repo_name: mcapodici/firestarter
 markdown_extensions:
