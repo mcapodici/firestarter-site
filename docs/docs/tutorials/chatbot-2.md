@@ -12,8 +12,6 @@ Follow the setup guide link below to get Firestarter set up, then come back here
 
 ## Add a new page
 
-Adding a new page in NextJS is simple. You just add a new file.
-
 In your project, under `nextjs/src/pages` add a new folder called `chatbot` and within that folder create a new file called `index.tsx`.
 
 Put the following code in `index.tsx` to get started:
@@ -58,7 +56,7 @@ We are going to replace the default navigation items with a single link to this 
         Team
         </Link>
     </li>
-    <li className="nav-item mb-2 lg:mb-0">
+    <li className="nav-item">
         <Link href="/" className="menu-item">
         Projects
         </Link>
@@ -66,10 +64,10 @@ We are going to replace the default navigation items with a single link to this 
 </ul>
 ```
 
-You can remove these `li` items, and then add one for the new page like this:
+You can remove these `li` items, keeping the `ul` container, and then add one for the new page like this:
 
 ```tsx
-<li className="nav-item mb-2 lg:mb-0">
+<li className="nav-item">
     <Link href="/chatbot" className="menu-item">
     Your Bots
     </Link>
