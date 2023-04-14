@@ -18,10 +18,11 @@ npm install --global yarn
 
 ## Test that your local environment is working
 
-Change directory to the root of the repo you have cloned, then run these commands to build the project:
+Change directory to the root of the repo you have cloned, then run these commands to install dependencies, and build the project:
 
 ```
 cd nextjs
+yarn
 yarn build
 ```
 
