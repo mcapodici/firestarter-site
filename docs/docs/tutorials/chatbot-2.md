@@ -1,4 +1,4 @@
-# Bot management
+# Bot Management: Prologue
 
 First we will set up Firestarter and create the bot management screen, which is this.
 
@@ -22,11 +22,9 @@ import Layout from '@/components/Layout'
 export default function Login() {
 
   return (
-    <>
-      <Layout>
-        <p>My page will go here!</p>
-      </Layout>
-    </>
+    <Layout>
+      <p>My page will go here!</p>
+    </Layout>
   )
 }
 ```
@@ -76,12 +74,41 @@ You can remove these `li` items, keeping the `ul` container, and then add one fo
 
 Now visit [http://localhost:3000](http://localhost:3000) check that this navigation item works and takes you to the page we have created.
 
-## Add the list of bots
+## Add New Link
 
-We are going to now add the list of existing bots. Since there are none in the database, and there is no page yet to add them, we will manually add some data to the Firebase backend to check that it works.
+The management page has a link to add a new bot. We will include this link, by replacing the
 
+```tsx
+<p>My page will go here!</p>
+```
+
+With
+
+```tsx
+<Link href="/chatbot/new" className="button blue">
+  Add New
+</Link>
+```
+
+And add the required import for `Link` at the top:
+
+```tsx
+import Link from "next/link";
+```
+
+This button will be badly positioned on the page, but we will fix up styling and layout later.
+
+We will now add the page that this links to creating a copy of `index.tsx` inside the `chatbot` folder and calling it `new.tsx`.
+
+Now replace the content inside `<Layout></Layout>` with just the word "New" inside of `new.tsx` and test that the button links to this page.
+
+
+## Rest of the owl?
+
+There is a lot more to add to the management page, but we will come back to that. The next step is to make the new bot page work, so that we can add a bot, so that we have something to manage.
 
 ## Next steps
 
 The next step in the tutorial is coming soon.
 
+[Make a Bot >>>](chatbot-3.md){ .md-button }

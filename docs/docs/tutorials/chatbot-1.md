@@ -47,5 +47,5 @@ When you add or edit a bot there are just 4 fields to set it up:
 
 ## Next steps
 
-[Bot Management >>>](chatbot-2.md){ .md-button }
+[Bot Management: Prologue >>>](chatbot-2.md){ .md-button }
 
