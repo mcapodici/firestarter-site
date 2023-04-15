@@ -84,13 +84,13 @@ Add a helper to create error messages for any invalid inputs:
     );
 ```
 
-And add a dummy handler, for now:
+For now we add a form submit handler that does nothing. Later on this will be changed to save the bot and return to the management page.
 
 ```tsx
   const onSubmit = () => {};
 ```
 
-Finally, return the form, along with validation conditions and error built in:
+Finally, the code that constructs the form HTML, specifies the validations and shows any validation errors:
 
 ```tsx
   return (
@@ -156,7 +156,7 @@ Finally, return the form, along with validation conditions and error built in:
 }
 ```
 
-Now view the page at [](), and it should look like this:
+Now view the page at [http://localhost:3000/chatbot/new](http://localhost:3000/chatbot/new), and it should look like this:
 
 ![Add bot screenshot](../assets/chatbot-screenshot-2.png)
 
