@@ -1,4 +1,4 @@
-# Make a Bot
+# New Bot Form
 
 We know ahead of time that we will have a "New" and "Edit" screen and that they will be mostly similar. For this reason we will put the functionality in a component that can be used by both pages.
 
@@ -122,6 +122,7 @@ Finally, the code that constructs the form HTML, specifies the validations and s
         <div className="mb-6">
           <div className="block">
             <input
+              {...register("useFirstResponseAsMessage")}
               type="checkbox"
               className="float-left relative mt-1.5 mr-1"
               aria-describedby="Use Response As Message"
@@ -166,4 +167,4 @@ If you fill them in and click "ADD BOT", nothing will happen as we haven't added
 
 ## Next steps
 
-The next step in the tutorial is coming soon.
+[New Bot Save >>>](chatbot-4.md){ .md-button }

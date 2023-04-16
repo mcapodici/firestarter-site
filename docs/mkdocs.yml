@@ -32,6 +32,7 @@ nav:
           - tutorials/chatbot-1.md
           - tutorials/chatbot-2.md
           - tutorials/chatbot-3.md
+          - tutorials/chatbot-4.md
 repo_url: https://github.com/mcapodici/firestarter
 repo_name: mcapodici/firestarter
 extra_css: [assets/extra.css]

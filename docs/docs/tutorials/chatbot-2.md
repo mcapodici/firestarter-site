@@ -111,4 +111,4 @@ There is a lot more to add to the management page, but we will come back to that
 
 The next step in the tutorial is coming soon.
 
-[Make a Bot >>>](chatbot-3.md){ .md-button }
+[New Bot Form >>>](chatbot-3.md){ .md-button }
