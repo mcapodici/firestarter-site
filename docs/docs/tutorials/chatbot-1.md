@@ -1,4 +1,4 @@
-# Introduction
+# Chatbot Tutorial
 
 We are going to create a web application that let's people create their own AI chat bots. The chat bot would look something like this. This is a "Roasting Bot" that tries hard to insult you, but the app will let you create many types of bot.
 
